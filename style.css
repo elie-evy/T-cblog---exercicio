@@ -1,0 +1,87 @@
+/*limpar formatações padrões*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+}
+
+/*leyout*/
+                                    /*FORMATAÇÃ DO CABEÇALHO*/
+#area-cabecalho {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+                                    /*FORMATAÇÃ DO MENU*/
+#area-menu {
+    padding: 10px;  
+}
+
+a {
+    text-decoration: none;
+    padding: 8px 12px ;
+}
+
+#area-menu a:link, #area-menu a:visited {
+    color: #fff;
+}
+#area-menu a:hover {
+    color: #f7b600;
+    background: #fff;
+}
+                                    /*FORMATAÇÃ DO LOGO*/
+#area-logo {
+    padding: 10px;
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+
+
+.white {
+    color: white;
+}
+/*Conteudo do site*/
+#espaco-do-conteudo {
+    width: 640px;
+    margin: 40px auto;
+}
+
+
+.conteudo {
+    padding-bottom: 40px;
+}
+
+.title {
+    font-size: 1em;
+    color: #f7b600;
+}
+
+#recentes {
+    width: 300px;
+    position: absolute;
+    margin-right: 30px;
+    top: 210px;
+    right: 30px;
+}
+
+h2 {
+    background-color: rgb(189, 186, 186);
+    color: rgb(37, 37, 37);
+}
+
+.leia-mais a:link, .leia-mais a:visited {
+    color: orange;
+}
+
+.contecente {
+    padding-bottom: 40px;
+}
+
+#links a:link, a:visited {
+    color: orange;
+}
